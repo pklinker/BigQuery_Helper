@@ -2,7 +2,7 @@ from setuptools import setup
 from version import __version__ as version
 
 
-setup(name='BigQuery_Helper',
+setup(name='bq_helper',
       version=version,
       description='Helper class to simplify common read-only BigQuery tasks.',
       author='Sohier Dane',
@@ -10,4 +10,5 @@ setup(name='BigQuery_Helper',
       license='Apache 2.0',
       install_requires=['pandas', 'google-cloud-bigquery'],
       classifiers=['Programming Language :: Python :: 3'],
+      py_modules=['bq_helper'],
       )
