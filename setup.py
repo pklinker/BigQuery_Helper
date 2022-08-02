@@ -10,5 +10,5 @@ setup(name='bq_helper',
       license='Apache 2.0',
       install_requires=['pandas', 'google-cloud-bigquery'],
       classifiers=['Programming Language :: Python :: 3'],
-      py_modules=[],
+      py_modules=['bq_helper'],
       )
